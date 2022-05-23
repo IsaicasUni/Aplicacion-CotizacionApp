@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CotizacionApp</string>
+    <string name="nomEmpresa">Toyota Mazatlan</string>
+    <string name="tema">Cotización</string>
+    <string name="numCotizacion">Número de Cotización:</string>
+    <string name="soliNumCotizacion">Ingresa el número de cotización</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="soliDescripcion">Ingresa una descripción del automóvil</string>
+    <string name="precio">Precio:</string>
+    <string name="soliPrecio">Ingresa el precio del automóvil</string>
+    <string name="porcentajePago">Porcentaje de pago inicial:</string>
+    <string name="soliPorcentajePago">Ingrese el porcentaje deseado</string>
+    <string name="plazo">Plazo:</string>
+    <string name="soliPlazo">Ingrese un número de meses</string>
+    <string name="calcular">Imprimir Cotización</string>
+    <string name="vaciar">Nueva Cotización</string>
+    <string name="cerrar">Cerrar Aplicación</string>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nomEmpresa"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25dp"
+            android:textColor="@color/purple_500">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tema"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20dp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/numCotizacion"
+            android:textSize="16dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtNumCotizacion"
+            android:hint="@string/soliNumCotizacion"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion"
+            android:textSize="16dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:hint="@string/soliDescripcion"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/precio"
+            android:textSize="16dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtPrecio"
+            android:hint="@string/soliPrecio"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/porcentajePago"
+            android:textSize="16dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtPorcentaje"
+            android:hint="@string/soliPorcentajePago"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plazo"
+            android:textSize="16dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtPlazo"
+            android:hint="@string/soliPlazo"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/calcular">
+        </Button>
+
+        <Button
+            android:id="@+id/btnVaciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vaciar">
+        </Button>
+
+        <Button
+            android:id="@+id/btnCerrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cerrar">
+        </Button>
+        
+        <TextView
+            android:id="@+id/mostrarResultados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp">
+        </TextView>
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
